@@ -70,8 +70,6 @@ ph-tour-management-system-frontend/
 └── README.md
 ```
 
-```base
-
 ⚡ Usage
 
 Tours Management: View, create, update, and delete tour packages.
@@ -83,14 +81,14 @@ Form Handling: All forms are validated with Zod schemas.
 Responsive UI: Works on all screen sizes from mobile to desktop.
 
 🧩 Key Libraries
--- Library	Purpose
--- React	Frontend framework
--- Redux Toolkit	State management
--- Tailwind CSS	Utility-first CSS framework
+-- Library Purpose
+-- React Frontend framework
+-- Redux Toolkit State management
+-- Tailwind CSS Utility-first CSS framework
 -- Tailwind CSS component library
--- Shadcn UI	Modern React component library
--- Zod	Runtime schema validation
--- React Router	Routing and navigation
+-- Shadcn UI Modern React component library
+-- Zod Runtime schema validation
+-- React Router Routing and navigation
 =======================================
 🤝 Contributing
 
@@ -110,8 +108,4 @@ Open a pull request
 
 This project is licensed under the MIT License.
 
-
 Made with ❤️ by Mahabub ALam
-
-
-```
