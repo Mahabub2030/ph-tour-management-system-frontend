@@ -1,29 +1,51 @@
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# PH Tour Management System - Frontend
 
-Currently, two official plugins are available:
+A modern and responsive **Tour Management System** frontend built with **React**, **Redux Toolkit**, **Tailwind CSS**, **DaisyUI**, **Shadcn UI**, and **Zod** for schema validation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **User-Friendly Interface** with responsive design using Tailwind CSS.
+- **State Management** powered by Redux Toolkit for efficient data handling.
+- **Form Validation** using Zod for type-safe validation.
+- **Custom UI Components** built with Shadcn UI & DaisyUI.
+- **React Hooks** for functional and reactive components.
+- **Reusable Components** for faster development.
+- **Dark & Light Mode** support.
+- **Optimized Performance** with modular code structure.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+## 🛠 Tech Stack
+
+- **Frontend:** React (Functional Components & Hooks)
+- **State Management:** Redux Toolkit
+- **Styling:** Tailwind CSS, DaisyUI
+- **UI Components:** Shadcn UI
+- **Validation:** Zod
+- **Version Control:** Git & GitHub
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/Mahabub2030/ph-tour-management-system-frontend.git
+cd ph-tour-management-system-frontend
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# ph-tour-management-system-frontend
+2. **Install dependencies:**
+
+npm install
+or
+bun install
+or
+yearn install
+Run the development server:
+bun run dev
+
+Open http://localhost:3000
+to view it in the browser.
