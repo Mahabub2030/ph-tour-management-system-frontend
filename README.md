@@ -49,3 +49,23 @@ bun run dev
 
 Open http://localhost:3000
 to view it in the browser.
+
+```bash
+
+📂 Project Structure
+ph-tour-management-system-frontend/
+│
+├── public/
+├── src/
+│   ├── api/
+│   ├── components/
+│   ├── features/      <===##features
+│   ├── hooks/
+│   ├── pages/
+│   ├── utils/
+│   ├── App.jsx
+│   └── index.js
+├── tailwind.config.js
+├── package.json
+└── README.md
+```
